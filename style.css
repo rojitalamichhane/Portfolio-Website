@@ -611,9 +611,9 @@ button:hover{
 
 
 @media (max-width: 320px){
-    .Services .service-container .container3 .card{
+    /* .Services .service-container .container3 .card{
         width: 100%;
-    }
+    } */
     .container3, .skill-content, .contact-parent{
         display:flex;
         flex-direction: column;
@@ -621,9 +621,12 @@ button:hover{
     .container1{
         width: 100%;
     }
-    .contact .contact-content, .skills .skill-container .skill-content .column-left, .skills .skill-container .skill-content .column-right{
+    /* .contact .contact-content, .skills .skill-container .skill-content .column-left, .skills .skill-container .skill-content .column-right{
        width:100%;
-    }
+    } */
+    .Services .title {
+        padding-bottom: 44px;
+}
 }
 }
 
